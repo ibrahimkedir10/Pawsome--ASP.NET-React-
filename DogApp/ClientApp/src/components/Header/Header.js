@@ -1,10 +1,11 @@
-﻿import React from "react"
-import './style.css'
+import React from "react"
+
 
 export default function Header() {
+    console.log("Rendering Header");
     return (
         <div>
-            <section className="bg-blue-800 h-40">
+            <section className="bg-red-600 h-40">
                 <header className="text-white p-4 flex justify-center">
                     {/* Responsive text sizing and minimum width */}
                     <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold min-w-xs whitespace-normal">

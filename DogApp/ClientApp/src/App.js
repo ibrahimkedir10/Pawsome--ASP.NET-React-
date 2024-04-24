@@ -3,7 +3,7 @@ import BreedImage from './components/BreedImage/BreedImage.js'; // Adjusted path
 import BreedList from './components/BreedList/BreedList.js'; // Adjusted path
 import Header from "./components/Header/Header.js"; // Adjusted path
 import Footer from "./components/Footer/Footer.js"; // Adjusted path
-import './App.css'; // Ensure this file exists in the src folder
+import './index.css'; 
 
 function App() {
     const [selectedBreed, setSelectedBreed] = useState("");
